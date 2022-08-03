@@ -1,0 +1,163 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+header {
+  height: 416px;
+}
+.title_h3 {
+  padding: 143px 0px 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 400%;
+  line-height: 30px;
+  color: #898f99;
+}
+.title_h1 {
+  padding: 32px 0px 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #0ec8cb;
+  line-height: 30px;
+}
+.title_text {
+  padding: 32px 0px 0px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #999999;
+}
+main {
+  padding: 0 160px;
+  width: 100%;
+}
+.table {
+    width: 24%;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+background-color: #f7f7f7;
+  overflow: auto;
+}
+.pic {
+  height: 160px;
+  padding: 48px 0px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 24px;
+  color: #898f99;
+}
+
+.hack {
+  margin: 6px 0px;
+
+}
+
+p {
+  padding: 33px 12.5% 0px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1b1b1b;
+}
