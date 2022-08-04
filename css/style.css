@@ -127,6 +127,12 @@ main {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
+  height: 423px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1b1b1b;
 }
 
 .table_1 {
@@ -135,6 +141,7 @@ main {
   height: 423px;
   background: url(../img/Anchor.png) 50% 55px no-repeat;
   background-color: #f7f7f7;
+  padding: 175px 35px 0;
 }
 .table_2 {
   overflow: auto;
@@ -142,6 +149,7 @@ main {
   height: 423px;
   background: url(../img/Diamond.png) 50% 55px no-repeat;
   background-color: #f7f7f7;
+  padding: 161px 35px 0;
 }
 .table_3 {
   overflow: auto;
@@ -149,6 +157,7 @@ main {
   height: 423px;
   background: url(../img/Eyeglasses.png) 50% 55px no-repeat;
   background-color: #f7f7f7;
+  padding: 175px 35px 0;
 }
 .table_4 {
   overflow: auto;
@@ -156,32 +165,11 @@ main {
   height: 423px;
   background: url(../img/Monitor.png) 50% 55px no-repeat;
   background-color: #f7f7f7;
+  padding: 175px 35px 0;
 }
 
-p {
-  display: inline-block;
-
-  height: 423px;
-  padding: 160px 12.5% 0;
-  padding-top: 175px;
-  text-align: center;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  line-height: 22px;
-  color: #1b1b1b;
-}
-
-.text_2{
-  display: inline-block;
-    height: 423px;
-  padding: 160px 12.5% 0;
-    text-align: center;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  line-height: 22px;
-  color: #1b1b1b;
-}
 span {
+  padding-top: 24px;
   font-family: "Montserrat", sans-serif;
   font-size: 21px;
   text-align: center;
@@ -190,26 +178,35 @@ span {
   color: #898f99;
 }
 
-.text_1:hover {
+.table_1:hover {
   background: url(../img/Anchor_w.png) 50% 55px no-repeat;
   background-color: #0ec8cb;
   color: #fff;
 }
-.text_2:hover {
+.table_1:hover span {
+  color: #fff;
+}
+.table_2:hover {
   background: url(../img/Diamond_w.png) 50% 55px no-repeat;
   background-color: #0ec8cb;
   color: #fff;
 }
-.text_3:hover {
+.table_2:hover span {
+  color: #fff;
+}
+.table_3:hover {
   background: url(../img/Eyeglasses_w.png) 50% 55px no-repeat;
   background-color: #0ec8cb;
   color: #fff;
 }
-.text_4:hover {
+.table_3:hover span {
+  color: #fff;
+}
+.table_4:hover {
   background: url(../img/Monitor_w.png) 50% 55px no-repeat;
   background-color: #0ec8cb;
   color: #fff;
 }
-span:hover {
+.table_4:hover span {
   color: #fff;
 }
