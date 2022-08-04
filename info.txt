@@ -1,0 +1,3 @@
+.table_1:hover span {
+  color: #fff;
+}
