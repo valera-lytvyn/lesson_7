@@ -92,7 +92,7 @@ h6 {
 header {
   height: 416px;
 }
-.title_h3 {
+h3 {
   padding: 143px 0px 0px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -103,7 +103,7 @@ header {
   line-height: 30px;
   color: #898f99;
 }
-.title_h1 {
+h1 {
   padding: 32px 0px 0px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -112,7 +112,7 @@ header {
   color: #0ec8cb;
   line-height: 30px;
 }
-.title_text {
+h2 {
   padding: 32px 0px 0px;
   text-align: center;
   font-family: "PT Sans", sans-serif;
@@ -122,24 +122,66 @@ header {
   color: #999999;
 }
 main {
-  padding: 0 160px;
-  width: 100%;
-}
-.table {
-    width: 24%;
-  height: 400px;
-  display: inline-block;
-  text-align: center;
-background-color: #f7f7f7;
-  overflow: auto;
-}
-.pic {
-  height: 160px;
-  padding: 48px 0px;
-  text-align: center;
+  padding: 0 169px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
-h2 {
+.table_1 {
+  overflow: auto;
+  width: 25%;
+  height: 423px;
+  background: url(../img/Anchor.png) 50% 55px no-repeat;
+  background-color: #f7f7f7;
+}
+.table_2 {
+  overflow: auto;
+  width: 25%;
+  height: 423px;
+  background: url(../img/Diamond.png) 50% 55px no-repeat;
+  background-color: #f7f7f7;
+}
+.table_3 {
+  overflow: auto;
+  width: 25%;
+  height: 423px;
+  background: url(../img/Eyeglasses.png) 50% 55px no-repeat;
+  background-color: #f7f7f7;
+}
+.table_4 {
+  overflow: auto;
+  width: 25%;
+  height: 423px;
+  background: url(../img/Monitor.png) 50% 55px no-repeat;
+  background-color: #f7f7f7;
+}
+
+p {
+  display: inline-block;
+
+  height: 423px;
+  padding: 160px 12.5% 0;
+  padding-top: 175px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1b1b1b;
+}
+
+.text_2{
+  display: inline-block;
+    height: 423px;
+  padding: 160px 12.5% 0;
+    text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1b1b1b;
+}
+span {
   font-family: "Montserrat", sans-serif;
   font-size: 21px;
   text-align: center;
@@ -148,16 +190,26 @@ h2 {
   color: #898f99;
 }
 
-.hack {
-  margin: 6px 0px;
-
+.text_1:hover {
+  background: url(../img/Anchor_w.png) 50% 55px no-repeat;
+  background-color: #0ec8cb;
+  color: #fff;
 }
-
-p {
-  padding: 33px 12.5% 0px;
-  text-align: center;
-  font-family: "PT Sans", sans-serif;
-  font-size: 14px;
-  line-height: 22px;
-  color: #1b1b1b;
+.text_2:hover {
+  background: url(../img/Diamond_w.png) 50% 55px no-repeat;
+  background-color: #0ec8cb;
+  color: #fff;
+}
+.text_3:hover {
+  background: url(../img/Eyeglasses_w.png) 50% 55px no-repeat;
+  background-color: #0ec8cb;
+  color: #fff;
+}
+.text_4:hover {
+  background: url(../img/Monitor_w.png) 50% 55px no-repeat;
+  background-color: #0ec8cb;
+  color: #fff;
+}
+span:hover {
+  color: #fff;
 }
