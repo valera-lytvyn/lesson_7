@@ -94,14 +94,14 @@ body {
   background-color: rgba(0, 153, 255, 0.856);
   color: white;
   font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+  font-size: 22px;
 }
 h1,
 .nice_day {
-  font-size: 22px;
   height: 20%;
   margin: 25px 50px;
 }
-i {
+.wi{
   font-size: 18px;
 }
 .sity {
@@ -119,6 +119,7 @@ i {
   text-align: center;
   padding-top: 16px;
 }
+
 .Kyiv {
   width: 50%;
   background-color: rgba(0, 166, 216, 0.87);
@@ -166,11 +167,29 @@ i {
   background-color: rgba(247, 237, 110, 0.877);
 }
 
-span {
+li > span {
   opacity: 0.8;
 }
 
-.sity :not(:hover) {
-  opacity: 0.4;
+
+/* .sity:hover {
+  opacity: .6;
   transition: all 0.1s ease-in;
 }
+
+li:hover {
+  background-color: blue;
+    transition: all 0.1s ease-in;
+    opacity: 1;
+  } */
+  
+  .sity:hover{
+    opacity: 0.7;
+    transition: all 0.1s ease-in;
+  }
+  li:hover {
+    background-color: rgba(235, 228, 228, 0.548);
+      transition: all 0.1s ease-in;
+      opacity: 1;
+    } 
+ 
