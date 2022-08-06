@@ -127,23 +127,23 @@ h1,
 
 .Odesa {
   width: 25%;
-  background-color: rgba(0, 166, 216, 0.87);
+  background-color: rgba(0, 216, 65, 0.87);
 }
 .Lviv {
   width: 25%;
-  background-color: rgba(0, 166, 216, 0.87);
+  background-color: rgba(216, 0, 216, 0.87);
 }
 .Dnipro {
   width: 25%;
-  background-color: rgba(0, 166, 216, 0.87);
+  background-color: rgba(169, 216, 0, 0.87);
 }
 .Mariupol {
   width: 25%;
-  background-color: rgba(0, 166, 216, 0.87);
+  background-color: rgba(216, 0, 54, 0.87);
 }
 .Ternopil {
   width: 25%;
-  background-color: rgba(0, 166, 216, 0.87);
+  background-color: rgba(92, 115, 241, 0.87);
 }
 .Poltava {
   width: 25%;
@@ -156,29 +156,27 @@ h1,
 }
 .Lutsk {
   width: 50%;
-  background-color: rgba(247, 237, 110, 0.877);
+  background-color: rgba(247, 159, 28, 0.877);
 }
 .Donetsk {
   width: 25%;
-  background-color: rgba(247, 237, 110, 0.877);
+  background-color: rgba(50, 180, 24, 0.877);
 }
 .Ivano-Frankivsk {
   width: 100%;
-  background-color: rgba(40, 32, 112, 0.877);
+  background-color: rgba(119, 231, 235, 0.877);
 }
 
 li > span {
   opacity: 0.8;
 }
 
-
-
 ul:hover li {
   opacity: 0.7;
   transition: all 0.1s ease-in;
 }
 
-ul li:hover{
+ul li:hover {
   transition: all 0.1s ease-in;
   opacity: 1;
 }
