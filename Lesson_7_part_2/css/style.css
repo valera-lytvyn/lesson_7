@@ -101,7 +101,7 @@ h1,
   height: 20%;
   margin: 25px 50px;
 }
-.wi{
+.wi {
   font-size: 18px;
 }
 .sity {
@@ -164,7 +164,7 @@ h1,
 }
 .Ivano-Frankivsk {
   width: 100%;
-  background-color: rgba(247, 237, 110, 0.877);
+  background-color: rgba(40, 32, 112, 0.877);
 }
 
 li > span {
@@ -172,24 +172,13 @@ li > span {
 }
 
 
-/* .sity:hover {
-  opacity: .6;
+
+ul:hover li {
+  opacity: 0.7;
   transition: all 0.1s ease-in;
 }
 
-li:hover {
-  background-color: blue;
-    transition: all 0.1s ease-in;
-    opacity: 1;
-  } */
-  
-  .sity:hover{
-    opacity: 0.7;
-    transition: all 0.1s ease-in;
-  }
-  li:hover {
-    background-color: rgba(235, 228, 228, 0.548);
-      transition: all 0.1s ease-in;
-      opacity: 1;
-    } 
- 
+ul li:hover{
+  transition: all 0.1s ease-in;
+  opacity: 1;
+}
