@@ -98,75 +98,81 @@ h6 {
 
 /*--------------------*/
 .body {
-  border: 10px solid rgba(18, 95, 196, 0.808);
   background-color: rgba(0, 153, 255, 0.856);
   color: white;
   font-family: 'Lucida Grande';
   font-size: 20px;
 }
 
-.header,
-.main {
-  margin: 25px 100px;
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid rgba(18, 95, 196, 0.808);
 }
 
-.row {
-  min-height: 600px;
-
+.header,
+.nice_day {
+  margin: 25px 20% 25px;
 }
 
 .city {
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
 }
 
 .Kyiv {
+  background-color: rgba(208, 3, 235);
 
-  background-color: rgba(208, 3, 235, 0.938);
 }
 
 .Odesa {
 
-  background-color: rgba(0, 216, 65, 0.87);
+  background-color: rgba(0, 216, 65);
 }
 
 .Lviv {
 
-  background-color: rgba(216, 0, 216, 0.87);
+  background-color: rgba(216, 0, 216);
 }
 
 .Dnipro {
 
-  background-color: rgba(169, 216, 0, 0.87);
+  background-color: rgba(169, 216, 0);
 }
 
 .Mariupol {
 
-  background-color: rgba(216, 0, 54, 0.87);
+  background-color: rgba(216, 0, 54);
 }
 
 .Ternopil {
 
-  background-color: rgba(92, 115, 241, 0.87);
+  background-color: rgba(92, 115, 241);
 }
 
 .Poltava {
 
-  background-color: rgba(0, 166, 216, 0.87);
+  background-color: rgba(0, 166, 216);
 }
 
 .Uman {
 
-  background-color: rgba(8, 145, 236, 0.877);
+  background-color: rgba(8, 145, 236);
 }
 
 .Lutsk {
 
-  background-color: rgba(247, 159, 28, 0.877);
+  background-color: rgba(247, 159, 28);
 }
 
 .Donetsk {
 
-  background-color: rgba(50, 180, 24, 0.877);
+  background-color: rgba(50, 180, 24);
 }
 
 .Ivano-Frankivsk {
@@ -174,12 +180,8 @@ h6 {
   background-color: rgb(153, 147, 58);
 }
 
-.nice_day {
-  margin-top: 25px;
-  font-size: 18px;
-}
 
-.city>span {
+.city>.weather_data {
   opacity: 0.8;
 }
 
@@ -193,4 +195,3 @@ h6 {
   opacity: 1;
 }
 
-*/
